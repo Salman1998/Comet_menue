@@ -1,0 +1,232 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#topBg{
+    width: 100%;
+    height: 550px;
+    background-image: linear-gradient(to right, #F16231,#F9A239);
+    padding: 0 275px;
+    color: #fff;
+}
+#topBg .logo{
+    display: flex;
+    padding-bottom: 50px;
+    padding-top: 60px;
+}
+#topBg a{
+    color: #fff;
+    text-decoration: none;
+}
+#topBg .logo h5{
+    margin: 0;
+    padding: 10px 0 0 0;
+}
+#topBg h2{
+    margin: 0;
+    padding-bottom: 35px;
+}
+#topBg p{
+    margin: 0;
+    padding-bottom: 30px;
+    font-weight: 500;
+    font-size: 15px;
+}
+#formBox{
+    width: 800px;
+    min-height: 1000px;
+    background: #fff;
+    position: absolute;
+    top: 300px;
+    border: 1px solid #555;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+#formBox .topFb{
+    width: 100%;
+    height: 150px;
+    border: 1px solid #999;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+#formBox:before{
+    content: '';
+    width: 99%;
+    height: 4px;
+    background-image: linear-gradient(to right, #F16231,#F9A239);
+    position: absolute;
+    bottom: 0;
+    align-self: center;
+}
+#formBox .topFb:before{
+    content: '';
+    width: 99%;
+    height: 4px;
+    background-image: linear-gradient(to right, #F16231,#F9A239);
+    position: absolute;
+    top: -2px;
+}
+#formBox h5{
+    padding-bottom: 10px;
+    font-weight: 700;
+}
+#formBox .first{
+    margin-bottom: 35px;
+}
+#formBox input{
+    width: 100%;
+    padding: 10px;
+    font-weight: 500;
+    outline: none;
+    border: 0;
+    border: 1px solid #999;
+}
+#formBox .second textarea{
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    font-weight: 500;
+    outline: none;
+    border: 0;
+    border: 1px solid #999;
+    resize: none;
+}
+#formBox .second{
+    margin-bottom: 60px;
+}
+#formBox .second h4{
+    margin: 0;
+}
+#formBox .second p{
+    font-weight: 500;
+    font-size: 14px;
+}
+#formBox .second span{
+    font-weight: 500;
+    float: right;
+    padding: 5px;
+    font-size: 15px;
+}
+#formBox .pjtdel{
+    margin-bottom: 35px;
+}
+#formBox .WryEBg{
+    margin-bottom: 40px;
+}
+#formBox .WryEBg select{
+    width: 80px;
+    height: 50px;
+    font-weight: 600;
+    outline: 0;
+    border: 0;
+    padding: 10px;
+    border: 1px solid #999;
+}
+#formBox .WryEBg input{
+    width: 50%;
+    margin-left: 10px;
+    padding: 12px;
+}
+#formBox .UfDdi{
+    width: 100%;
+    min-height: 10px;
+    border: 1px solid #999;
+    padding: 30px;
+    display: flex;
+    margin-bottom: 40px;
+}
+#formBox .UfDdi input[type="file"]{
+    display: none;
+}
+#formBox .UfDdi label{
+    margin: 0;
+    width: 170px;
+    height: 45px;
+    background: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: 30px;
+    border: 1px solid #999;
+    padding: 10px 20px;
+}
+#formBox .UfDdi label i{
+    padding-right: 5px;
+}
+#formBox .UfDdi  p{
+    margin: 0;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
+#formBox .fmBbox{
+    display: flex;
+    margin-bottom: 10px;
+}
+#formBox .fmBbox a{
+    padding: 10px 20px;
+    border-radius: 0;
+}
+#formBox .fmBbox p{
+    margin: 0;
+    margin-left: 30px;
+    padding: 10px 0;
+    font-weight: 600;
+}
+#middBg{
+    width: 100%;
+    height: 980px;
+}
+#botBg{
+    width: 100%;
+    height: 150px;
+    background-image: linear-gradient(to right, #F16231,#F9A239);
+    padding: 30px;
+    padding-right: 270px;
+    position: relative;
+}
+#botBg a{
+    color: #fff;
+    font-size: 13px;
+    display: flex;
+    border: 1px solid #fff;
+    float: left;
+}
+#botBg a span{
+    font-size: 20px;
+    padding: 10px;
+}
+#botBg a p{
+    margin: 0;
+    padding: 10px;
+    padding-left: 0;
+}
+#botBg .bIbox{
+    height: 52px;
+    float: right;
+}
+#botBg .bIbox i{
+    font-size: 20px;
+    padding: 10px 20px;
+    color: #fff;
+    cursor: pointer;
+}
+#botBg .country ul{
+    display: flex;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+#botBg .country ul li{
+    padding: 10px;
+    font-size: 14px;
+}
